@@ -17,6 +17,10 @@ header {
   background-color: #333333;
   height: 60px;
   font-size: 0.8rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
 }
 
 .top_menu li.right {
@@ -74,7 +78,7 @@ top: 60px;
 /* ここまでがfunction部分の実装 */
 footer {
 /* footer部分の実装 */
-position: absolute;/*←絶対位置*/
+position: absolute;
 bottom: 0;
 width: 100%;
 
